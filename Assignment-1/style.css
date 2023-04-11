@@ -559,6 +559,10 @@ footer .container .footer-side:nth-of-type(1) {
   align-items: flex-start;
   row-gap: 35.5px;
 }
+
+footer .container .footer-side:nth-of-type(1) .footer-link-list .big a:hover {
+    color: red;
+}
 footer .container .footer-side:nth-of-type(1) .footer-link-list.big {
   flex: 0 0 100%;
   max-width: 100%;
@@ -612,19 +616,22 @@ footer
   }
 }
 footer .container .footer-side:nth-of-type(1) .footer-link-list li {
-  margin-bottom: 2rem;
+  margin-bottom: 14.2px;
 }
 @media only screen and (max-width: 812px) {
   footer .container .footer-side:nth-of-type(1) .footer-link-list li {
-    margin-bottom: 1rem;
+    margin-bottom: 7.1px;
   }
 }
 footer .container .footer-side:nth-of-type(1) .footer-link-list li a {
-  font-size: 1.8rem;
+  font-size: 12.78px;
+}
+footer .container .footer-side:nth-of-type(1) .footer-link-list li a:hover {
+    color: #f16767;
 }
 @media only screen and (max-width: 812px) {
   footer .container .footer-side:nth-of-type(1) .footer-link-list li a {
-    font-size: 1.3rem;
+    font-size: 9.23px;
   }
 }
 footer .container .footer-side.side-2 form {
@@ -1031,6 +1038,7 @@ footer .container .footer-side.side-2 .map-box {
   width: 100%;
   height: auto;
   margin: 90px 0;
+  gap: 25px;
 }
 @media only screen and (max-width: 812px) {
   .demo {
@@ -1042,6 +1050,10 @@ footer .container .footer-side.side-2 .map-box {
   height: 284px;
   position: relative;
   margin: 35.5px 0;
+}
+
+.demo button {
+    margin-top: 20px;
 }
 @media only screen and (max-width: 812px) {
   .demo .slider-small {

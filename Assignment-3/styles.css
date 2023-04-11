@@ -800,7 +800,7 @@ footer .container .footer-content .up-logo {
 }
 
 .about {
-  margin: 142px 0 0 0;
+  padding: 142px 0 0 0;
 }
 
 @media only screen and (max-width: 812px) {
@@ -1129,7 +1129,7 @@ footer .container .footer-content .up-logo {
   height: 100%;
   transform-origin: left;
   transform: scaleX(0);
-  background: #E96906;
+  background: #e96906;
   transition: all 0.5s ease;
   z-index: -1;
 }
@@ -1139,13 +1139,13 @@ footer .container .footer-content .up-logo {
   transform: scaleX(1);
 }
 
-.menu .container .menu-box .menu-list button img{
-    height: 10px;
-    width: 14px;
+.menu .container .menu-box .menu-list button img {
+  height: 10px;
+  width: 14px;
 }
 
 .gallery {
-  margin: 142px 0;
+  margin: 90px 0;
   text-align: center;
 }
 
