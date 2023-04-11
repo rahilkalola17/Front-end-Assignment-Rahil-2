@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/textify.js@2.4.3/dist/Textify.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation start -->
+    <nav class="navigation">
+        <div class="container">
+            <!-- Hamburger Menu start -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">Rooms</a>
+                    <a href="#">Around Kensignton</a>
+                    <a href="#">Offers</a>
+                    <a href="#">Demo Hotels</a>
+                </div>
+            </div>
+            <button class="hamb" onclick="openNav()">
+                <span></span><span></span><span></span>
+            </button>
+            <!-- Hamburger menu ends -->
+            <a href="#" class="logo">
+                <img src="./assets/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="btn">BOOK NOW</button>
+        </div>
+    </nav>
+    <!-- navigation end -->
+    <!-- content start -->
+    <div class="content">
+        <div class="banner section">
+            <div class="banner-pic-wrapper"></div>
+            <div class="container">
+                <p class="paragraph big-para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu elementum magnis
+                    nisl convallis mauris morbi parturient. Eros inceptos montes condimentum parturient felis mattis
+                    imperdiet phasellus commodo. Quis euismod pharetra nullam primis tellus lorem pulvinar pellentesque
+                    eros.
+                </p>
+                <ul class="info-list">
+                    <li class="info-list-item">
+                        <img src="./assets/wifi-(1).svg" alt="Icon" class="icon">
+                        <p class="paragraph bold">
+                            Free WIFI
+                        </p>
+                    </li>
+                    <li class="info-list-item">
+                        <img src="./assets/telephone.svg" alt="Icon" class="icon">
+                        <p class="paragraph bold">
+                            24/7 Support
+                        </p>
+                    </li>
+                    <li class="info-list-item">
+                        <img src="./assets/cup-hot.svg" alt="Icon" class="icon">
+                        <p class="paragraph bold">
+                            Free Breakfast
+                        </p>
+                    </li>
+                    <li class="info-list-item">
+                        <img src="./assets/credit-card.svg" alt="Icon" class="icon">
+                        <p class="paragraph bold">
+                            Online Payment
+                        </p>
+                    </li>
+                    <li class="info-list-item">
+                        <img src="./assets/people.svg" alt="Icon" class="icon">
+                        <p class="paragraph bold">
+                            Family Room
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rooms section margin-75" id="rooms">
+            <div class="container">
+                <h1 class="title">
+                    ROOMS
+                </h1>
+                <p class="paragraph big">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu elementum magnis
+                    nisl convallis mauris morbi parturient. Eros inceptos montes condimentum parturient felis mattis
+                    imperdiet phasellus commodo. Quis euismod pharetra nullam primis tellus lorem pulvinar pellentesque
+                    eros.
+                </p>
+                <ul class="rooms-list">
+                    <li class="rooms-list-item">
+                        <figure class="rooms-list-figure">
+                            <img src="./assets/2.jpg" alt="Image" class="rooms-img ">
+                            <div class="item-content">
+                                <h1 class="sub-title">
+                                    COZY
+                                </h1>
+                                <p class="paragraph">
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                    elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                    condimentum parturient felis.
+                                </p>
+                                <button class="btn-color">BOOK NOW</button>
+                            </div>
+                        </figure>
+                    </li>
+                    <li class="rooms-list-item">
+                        <figure class="rooms-list-figure">
+                            <img src="./assets/3.jpg" alt="Image" class="rooms-img ">
+                            <div class="item-content">
+                                <h1 class="sub-title">
+                                    COMFY
+                                </h1>
+                                <p class="paragraph">
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                    elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                    condimentum parturient felis.
+                                </p>
+                                <button class="btn-color">
+                                    BOOK NOW
+                                </button>
+                            </div>
+                        </figure>
+                    </li>
+                    <li class="rooms-list-item">
+                        <figure class="rooms-list-figure">
+                            <img src="./assets/4.jpg" alt="Image" class="rooms-img ">
+                            <div class="item-content">
+                                <h1 class="sub-title">
+                                    ROOMY
+                                </h1>
+                                <p class="paragraph">
+                                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                    elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                    condimentum parturient felis.
+                                </p>
+                                <button class="btn-color">
+                                    BOOK NOW
+                                </button>
+                            </div>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="around section margin-75" id="around">
+            <div class="container">
+                <h1 class="title">
+                    AROUND KENSINGTON
+                </h1>
+                <div class="btns-list">
+                    <button class="btn-line active">Go</button>
+                    <button class="btn-line">Eat</button>
+                    <button class="btn-line">Drink</button>
+                </div>
+                <div class="around-list">
+                    <div class="around-list-item">
+                        <figure class="around-list-figure">
+                            <img src="./assets/1.jpg" alt="Image" class="around-list-img ">
+                        </figure>
+                        <h1 class="sub-title">
+                            HYDE PARK
+                        </h1>
+                        <p class="paragraph">
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu elementum
+                            magnis nisl convallis mauris morbi parturient. Eros inceptos montes condimentum parturient
+                            felis.
+                        </p>
+                        <div class="list">
+                            <div class="right-list">
+                                <img src="./assets/geo-alt.svg" alt="location-icon">
+                                <p class="paragraph">
+                                    1.3 Miles
+                                </p>
+                            </div>
+                            <div class="left-list">
+                                <img src="./assets/cursor.svg" alt="cursor-icon">
+                                <button class="btn">
+                                    <a href="#" class="link">Get Directions</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="around-list-item">
+                        <figure class="around-list-figure">
+                            <img src="./assets/2.jpg" alt="Image" class="around-list-img ">
+                        </figure>
+                        <h1 class="sub-title">
+                            HARRODS
+                        </h1>
+                        <p class="paragraph">
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu elementum
+                            magnis nisl convallis mauris morbi parturient. Eros inceptos montes condimentum parturient
+                            felis.
+                        </p>
+                        <div class="list">
+                            <div class="right-list">
+                                <img src="./assets/geo-alt.svg" alt="location-icon">
+                                <p class="paragraph">
+                                    1.3 Miles
+                                </p>
+                            </div>
+                            <div class="left-list">
+                                <img src="./assets/cursor.svg" alt="cursor-icon">
+                                <button class="btn">
+                                    <a href="#" class="link">Get Directions</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="around-list-item">
+                        <figure class="around-list-figure">
+                            <img src="./assets/3.jpg" alt="Image" class="around-list-img ">
+                        </figure>
+                        <h1 class="sub-title">
+                            HARRODS
+                        </h1>
+                        <p class="paragraph">
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu elementum
+                            magnis nisl convallis mauris morbi parturient. Eros inceptos montes condimentum parturient
+                            felis.
+                        </p>
+                        <div class="list">
+                            <div class="right-list">
+                                <img src="./assets/geo-alt.svg" alt="location-icon">
+                                <p class="paragraph">
+                                    1.3 Miles
+                                </p>
+                            </div>
+                            <div class="left-list">
+                                <img src="./assets/cursor.svg" alt="cursor-icon">
+                                <button class="btn">
+                                    <a href="#" class="link">Get Directions</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="around-list-item">
+                        <figure class="around-list-figure">
+                            <img src="./assets/4.jpg" alt="Image" class="around-list-img ">
+                        </figure>
+                        <h1 class="sub-title">
+                            HYDE PARK
+                        </h1>
+                        <p class="paragraph">
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu elementum
+                            magnis nisl convallis mauris morbi parturient. Eros inceptos montes condimentum parturient
+                            felis.
+                        </p>
+                        <div class="list">
+                            <div class="right-list">
+                                <img src="./assets/geo-alt.svg" alt="location-icon">
+                                <p class="paragraph">
+                                    1.3 Miles
+                                </p>
+                            </div>
+                            <div class="left-list">
+                                <img src="./assets/cursor.svg" alt="cursor-icon">
+                                <button class="btn">
+                                    <a href="#" class="link">Get Directions</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offers section margin-75" id="offers">
+            <div class="container">
+                <h1 class="title">
+                    OFFERS
+                </h1>
+                <p class="paragraph big">
+                    lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu elementum magnis
+                    nisl convallis mauris morbi parturient. Eros inceptos montes condimentum parturient felis.
+                </p>
+                <div class="slider">
+                    <div class="slide">
+                        <figure class="slide-figure">
+                            <img src="./assets/1.jpg" alt="Image" class="img">
+                        </figure>
+                        <div class="slide-content">
+                            <h1 class="sub-title">
+                                BREAD & BREAKFAST
+                            </h1>
+                            <p class="paragraph">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                condimentum
+                                parturient felis.
+                            </p>
+                            <button class="btn-color">
+                                BOOK NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <figure class="slide-figure">
+                            <img src="./assets/2.jpg" alt="Image" class="img">
+                        </figure>
+                        <div class="slide-content">
+                            <h1 class="sub-title">
+                                CITY EXPLORE
+                            </h1>
+                            <p class="paragraph">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                condimentum
+                                parturient felis.
+                            </p>
+                            <button class="btn-color">
+                                BOOK NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <figure class="slide-figure">
+                            <img src="./assets/3.jpg" alt="Image" class="img">
+                        </figure>
+                        <div class="slide-content">
+                            <h1 class="sub-title">
+                                YOUR GATEWAY
+                            </h1>
+                            <p class="paragraph">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                condimentum
+                                parturient felis.
+                            </p>
+                            <button class="btn-color">
+                                BOOK NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <figure class="slide-figure">
+                            <img src="./assets/4.jpg" alt="Image" class="img">
+                        </figure>
+                        <div class="slide-content">
+                            <h1 class="sub-title">
+                                WEEKEND SPECIAL
+                            </h1>
+                            <p class="paragraph">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                condimentum
+                                parturient felis.
+                            </p>
+                            <button class="btn-color">
+                                BOOK NOW
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <figure class="slide-figure">
+                            <img src="./assets/5.jpg" alt="Image" class="img">
+                        </figure>
+                        <div class="slide-content">
+                            <h1 class="sub-title">
+                                VIEWS OF CITY
+                            </h1>
+                            <p class="paragraph">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum malesuada sociosqu
+                                elementum magnis nisl convallis mauris morbi parturient. Eros inceptos montes
+                                condimentum
+                                parturient felis.
+                            </p>
+                            <button class="btn-color">
+                                BOOK NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="demo" id="demo">
+            <h1 class="title">
+                DEMO HOTELS
+            </h1>
+            <div class="slider-small">
+                <div class="slide-small">
+                    <figure class="slide-figure">
+                        <img src="./assets/1.jpg" alt="Image" class="img">
+                    </figure>
+                    <img src="./assets/instagram.svg" alt="icon" class="icon">
+                </div>
+                <div class="slide-small">
+                    <figure class="slide-figure">
+                        <img src="./assets/2.jpg" alt="Image" class="img">
+                    </figure>
+                    <img src="./assets/instagram.svg" alt="icon" class="icon">
+                </div>
+                <div class="slide-small">
+                    <figure class="slide-figure">
+                        <img src="./assets/3.jpg" alt="Image" class="img">
+                    </figure>
+                    <img src="./assets/instagram.svg" alt="icon" class="icon">
+                </div>
+                <div class="slide-small">
+                    <figure class="slide-figure">
+                        <img src="./assets/4.jpg" alt="Image" class="img">
+                    </figure>
+                    <img src="./assets/instagram.svg" alt="icon" class="icon">
+                </div>
+                <div class="slide-small">
+                    <figure class="slide-figure">
+                        <img src="./assets/5.jpg" alt="Image" class="img">
+                    </figure>
+                    <img src="./assets/instagram.svg" alt="icon" class="icon">
+                </div>
+            </div>
+            <button class="btn-color">
+                VIEW ALL
+            </button>
+        </div>
+    </div>
+    <!-- content end -->
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-side">
+                <ul class="footer-link-list">
+                    <li>
+                        <h1 class="small-title">YOUR STAY</h1>
+                    </li>
+                    <li><a href="/" class="link">Rooms</a></li>
+                    <li><a href="/" class="link">Foods</a></li>
+                    <li><a href="/" class="link">Offers</a></li>
+                    <li><a href="/" class="link">Booking</a></li>
+                </ul>
+                <ul class="footer-link-list">
+                    <li>
+                        <h1 class="small-title">ABOUT</h1>
+                    </li>
+                    <li><a href="/" class="link">Home</a></li>
+                    <li><a href="/" class="link">About Us</a></li>
+                    <li><a href="/" class="link">Contact Us</a></li>
+                    <li><a href="/" class="link">Careers</a></li>
+                    <li><a href="/" class="link">FAQs</a></li>
+                </ul>
+                <ul class="footer-link-list big">
+                    <li>
+                        <h1 class="small-title">CONTACT</h1>
+                    </li>
+                    <li>
+                        <p class="paragraph">
+                            Address <br>
+                            123, Lorem Ipsum, <br>
+                            <a href="tel:123456789">Tel : 1234567890</a> <br>
+                            Email :
+                        </p>
+                    </li>
+                </ul>
+                <ul class="footer-link-list big">
+                    <li>
+                        <h1 class="small-title">FOLLOW US</h1>
+                    </li>
+                    <li>
+                        <ul class="social-links">
+                            <li><a href=""><img src="./assets/Social-icons/facebook.svg" alt="error"></a></li>
+                            <li><a href=""><img src="./assets/Social-icons/instagram.svg" alt="error"></a></li>
+                            <li><a href=""><img src="./assets/Social-icons/twitter.svg" alt="error"></a></li>
+                            <li><a href=""><img src="./assets/Social-icons/linkedin.svg" alt="error"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-side side-2">
+                <h1 class="small-title">
+                    JOIN OUR NEWSLETTER
+                </h1>
+                <form class="form">
+                    <input type="text" placeholder="Email" required>
+                    <button class="submit-btn" type="submit">SUBMIT</button>
+                </form>
+                <div class="map-box">
+                    <h1 class="small-title">
+                        MAP
+                    </h1>
+                </div>
+                <img src="./assets/geo-alt.svg " alt="map">
+                <button class="btn">
+                    <a href="#" class="link">Get Directions</a>
+                </button>
+            </div>
+            <p class="paragraph last-para">
+                © 2023 All Rights Reserved.
+            </p>
+        </div>
+        <!-- <div class="container">
+            <p class="paragraph">
+                © 2023 All Rights Reserved.
+            </p>
+        </div> -->
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/textify.js@2.4.3/dist/Textify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ukiyojs@4.0.0/dist/ukiyo.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
