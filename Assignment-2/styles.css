@@ -485,6 +485,13 @@
     align-items: flex-start;
   }
 
+  @media only screen and (max-width: 812px) {
+      nav .container{
+        justify-content: space-between;
+        align-items: center;
+      }
+  }
+
   nav .container a.logo {
       font-family: "Gloock", sans-serif;
   }
@@ -611,12 +618,12 @@
 
   @media only screen and (max-width: 812px) {
       .banner .banner-content button {
-          width: 21px;
-          height: 21px;
+            width: 42px;
+            height: 42px;
       }
 
       .banner .banner-content button img {
-          width: 7px !important;
+          width: 15px !important;
           height: auto;
       }
   }
@@ -806,59 +813,46 @@
   .tour .container {
       text-align: center;
       padding: 71px 0;
-      gap: 21.3px;
   }
 
     @media only screen and (max-width: 812px) {
         .tour .container {
-            padding: 14.2px 0;
+            padding: 14.2px 0 40px 0;
         }
     }
 
 
     .tour .container .small-tour-blob{
         width: 25%;
-        position: relative;
-        top: 0;
-        left: 0;
+        /* position: relative; */
     }
 
-    .tour .container .small-tour-blob h1 {
+    .tour .container .small-tour-blob .small-tour-blob-img{
+        background-image: url(./assets/blob.png);
+        background-size: 130px 130px;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        height: 150px;
+        width: auto;
+    }
+
+    .tour .container .small-tour-blob .small-tour-blob-img img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, -55%);
+        width: 70px;
+        height: 55px;
+    }
+
+    .tour .container .small-tour-blob .small-tour-blob-content h1 {
         margin-top: 3rem;
     }
 
-    .tour .container .small-tour-blob figure{
-        position: absolute;
-        top: 35.5px;
-        left: 85px;
-    }
-
-    @media only screen and (max-width: 812px) {
-        .tour .container .small-tour-blob figure {
-            top: 35px;
-            left: 145px;
-        }
-    }
-
-    .tour .container .small-tour-blob figure img{
-        width: 63px;
-        height: 50px;
-    }
-
-    .tour .container .small-tour-blob .blob-img{
-        width: 100px;
-        height: 100px;
-    }
-
   .tour .container .small-tour-list {
-    margin-bottom: 71px;
+    padding-bottom: 71px;
     width: 100%;
-  }
-
-  @media only screen and (max-width: 812px) {
-      .tour .container .small-tour-list {
-          margin: 0;
-      }
   }
 
   @media only screen and (max-width: 812px) {
@@ -869,11 +863,8 @@
   }
 
   .tour .container .small-tour-list .small-tour-blob {
-      flex: 0 0 20%;
-      max-width: 20%;
+      flex: 0 0 25%;
       width: 100%;
-      height: auto;
-      gap: 2rem;
   }
 
   @media only screen and (max-width: 812px) {
@@ -883,39 +874,24 @@
       }
   }
 
-  .tour .container .small-tour-blob .blob-img {
-    width: 140px;
-    height: 140px;
-  }
-
-  .tour .container .small-tour-blob figure img {
-    width: 85px;
-    height: 60px;
-  }
-
-  .tour .container .small-tour-list .small-tour-box h1 {
-      margin-top: 2rem;
-  }
-
   .tour .container .tour-list {
       width: 100%;
       height: auto;
-      row-gap: 5rem;
-      margin: 5rem;
+      row-gap: 21px;
+      margin: 35.5px;
       text-align: left;
   }
 
   .testimonial {
       width: 100%;
       height: auto;
-      padding: 71px 0;
+      padding: 40px 0;
       overflow: hidden;
       background: white;
   }
 
   .testimonial>h1 {
       text-align: center;
-      margin-bottom: 5rem;
   }
 
   .testimonial .test-slider {
