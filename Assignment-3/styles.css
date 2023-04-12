@@ -280,7 +280,7 @@ nav.navigation,
 
 @media only screen and (max-width: 812px) {
   .section {
-    min-height: 70vh;
+    min-height: 0;
   }
 }
 
@@ -562,6 +562,10 @@ footer {
   background: #1d1d1d;
 }
 
+footer a:hover{
+    color: #e96906;
+}
+
 footer .container {
   gap: 2rem;
 }
@@ -598,6 +602,11 @@ footer .container .top-footer .top-box {
   }
 }
 
+footer .footer-content .up-logo img:hover {
+    scale: 0.9;
+    transition: all 0.3s ease-in-out;
+}
+
 footer .container .top-footer .top-box:not(:nth-of-type(1))::after {
   content: "";
   position: absolute;
@@ -616,12 +625,12 @@ footer .container .top-footer .top-box:not(:nth-of-type(1))::after {
 }
 
 footer .container .top-footer .top-box img {
-  width: 20rem;
+  width: 142px;
 }
 
 footer .container .footer-content {
   align-items: stretch;
-  padding: 10rem 0;
+  padding: 71px 0;
 }
 
 @media screen and (max-width: 812px) {
@@ -806,6 +815,7 @@ footer .container .footer-content .up-logo {
 @media only screen and (max-width: 812px) {
   .about {
     margin: 71px 0 35.5px 0;
+    padding: 0;
   }
 }
 
@@ -933,6 +943,10 @@ footer .container .footer-content .up-logo {
 
 .location .container .location-content a.bold {
   color: green;
+}
+
+.location .container .location-content a.bold:hover {
+  color: #e21818;
 }
 
 @media only screen and (max-width: 812px) {
@@ -1429,6 +1443,9 @@ footer .container .footer-content .up-logo {
 @media only screen and (max-width: 812px) {
   .faq .container .faq-content,
   .faq .container .faq-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0;
@@ -1454,7 +1471,7 @@ footer .container .footer-content .up-logo {
 
 @media only screen and (max-width: 812px) {
   .faq .container .faq-figure {
-    display: none;
+    opacity: 0.8;
   }
 }
 
