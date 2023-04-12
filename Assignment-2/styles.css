@@ -851,14 +851,14 @@
     }
 
   .tour .container .small-tour-list {
-    padding-bottom: 71px;
+    padding-bottom: 50px;
     width: 100%;
   }
 
   @media only screen and (max-width: 812px) {
       .tour .container .small-tour-list {
           flex-direction: column;
-          row-gap: 3rem;
+          row-gap: 21.3px;
       }
   }
 
