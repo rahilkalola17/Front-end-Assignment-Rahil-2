@@ -259,7 +259,7 @@ nav.navigation,
   width: 100%;
   height: auto;
   position: absolute;
-  top: 0;
+  top: 35px;
   left: 0;
 }
 
@@ -486,6 +486,58 @@ footer .container .footer-content .footer-links,
   align-items: flex-start;
 }
 
+.marquee{
+    display: flex;
+    justify-content: space-between;
+    background: #E96906;
+    height: 35px;
+}
+
+.border-left{
+    border-left: 0.5px solid #ffffff;
+    height: 34px;
+}
+
+.marquee .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 98%;
+}
+
+.marquee .marquee-right > img {
+    margin-left: 15px;
+}
+
+.marquee .marquee-left img{
+    padding-left: 5px;
+}
+
+.marquee .marquee-left,
+.marquee .marquee-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.marquee .marquee-right select {
+    border: none;
+    background: transparent;
+    color: #ffffff;
+}
+
+
+
+.marquee .marquee-right select option {
+    background: #e96906;
+    color: #fff;
+}
+
+@media only screen and (max-width: 812px) {
+  .marquee {
+    display: none;
+  }
+}
+
 nav.navigation {
   pointer-events: auto;
   z-index: 10;
@@ -494,7 +546,7 @@ nav.navigation {
 }
 
 nav.navigation .container {
-  padding: 7px 0;
+  padding-bottom: 7px;
 }
 
 nav.navigation .container a.logo img {
@@ -504,6 +556,12 @@ nav.navigation .container a.logo img {
 @media only screen and (max-width: 812px) {
   nav.navigation .container a.logo img {
     width: 35.5px;
+  }
+  nav.navigation{
+    top: 0;
+  }
+  nav.navigation .container {
+    padding: 7px 0;
   }
 }
 
@@ -1511,7 +1569,6 @@ nav .container .menu,
   nav .container .hamburger {
     display: flex;
     flex-direction: column;
-    position: fixed;
     z-index: 100;
     right: 1rem;
     padding: 1rem;
@@ -1532,7 +1589,7 @@ nav .container .menu,
 
   nav .container .menu {
     position: fixed;
-    transform: translateY(-100%);
+    transform: translateX(100%);
     transition: transform 1s;
     top: 0;
     left: 0;

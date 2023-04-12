@@ -892,6 +892,7 @@
 
   .testimonial>h1 {
       text-align: center;
+      padding-bottom: 40px;
   }
 
   .testimonial .test-slider {
@@ -1043,6 +1044,10 @@
         line-height: 2;
     }
 
+    .footer-image .footer-img-text button{
+        margin-top: 14px;
+    }
+
     @media only screen and (max-width: 812px) {
         .footer-image{
             background-size: cover;
@@ -1090,6 +1095,10 @@
         .footer .container{
             gap: 14.2px;
         }
+    }
+
+    .footer a:hover {
+        color:  orangered;
     }
 
     .footer .newsletter {
@@ -1258,6 +1267,10 @@
         flex-wrap: wrap;
     }
 
+    .footer .links .contact-us a:hover{
+        color: #CA5543;
+    }
+
     .footer .links .contact-us div{
         display: flex;
         flex-direction: row;
@@ -1270,33 +1283,22 @@
     }
 
     .banner .btn-color{
-        position: absolute;
-        right: -2rem;
-        z-index: 2;
-        transform: rotate(-90deg);
+        position: fixed;
+        right: -3rem;
+        bottom: 52px;
+        z-index: 999;
+        transform: rotate(270deg);;
     }
 
     .banner .btn-color span{
         cursor: pointer;
         display: inline-block;
         position: relative;
-        transition: 0.5s;
     }
 
-    .banner .btn-color span:after{
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        transition: 0.5s;
-    }
 
-    .banner button:hover span{
-       transform: scale(1.2);
-    }
-
-    .banner button:hover span:after{
+    .banner button:hover{
         opacity: 1;
-        right: 0;
     }
 
     /* Hamb btn */
