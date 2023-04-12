@@ -455,3 +455,24 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
+
+
+// change
+const btns = document.querySelectorAll("[data-btn]");
+const lists = document.querySelectorAll("[data-list]");
+
+
+btns.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+        lists.forEach((list) => {
+            list.classList.remove("active");
+        });
+        lists[index].classList.add("active");
+
+        btns.forEach((btn) => {
+            btn.classList.remove("active");
+        });
+        btn.classList.add("active");
+
+    });
+});

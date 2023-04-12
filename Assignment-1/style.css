@@ -875,7 +875,14 @@ footer .container .footer-side.side-2 .map-box {
 .around .container .around-list {
   width: 100%;
   height: auto;
+  transition: all .5s ease;
+   display: none;
 }
+
+.around .container .around-list.active{
+    display: flex;
+}
+
 @media only screen and (max-width: 812px) {
   .around .container .around-list {
     flex-direction: column;
